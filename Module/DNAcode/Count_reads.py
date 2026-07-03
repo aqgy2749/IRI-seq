@@ -17,7 +17,7 @@ def read_csv_to_list(file_name):
 def Fastq_count_reads_files(input_folder, sample_ID, core = 5):
     sample_list = read_csv_to_list(sample_ID)
     with Pool(processes=core) as pool:
-        result = pool.map(Fastq_count_reads, [(input_folder + sample + ".R2.fastq.gz") for sample in sample_list])
+        result = pool.map(Fastq_count_reads, [os.path.join(input_folder, sample + ".R2.fastq.gz") for sample in sample_list])
     return result
 
 def SAM_count_mapped_reads(samfile_path):
