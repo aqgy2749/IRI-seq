@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python-envs.defaultPackageManager": "ms-python.python:pip"
+	}
+}

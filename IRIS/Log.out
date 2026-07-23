@@ -182,7 +182,7 @@ Number of real (reference) chromosomes= 139
 138	KZ289074.1	394026	2774007808
 139	KZ289075.1	322221	2774532096
 --sjdbOverhang = 149 taken from the generated genome
-Started loading the genome: Tue Jul  7 15:04:46 2026
+Started loading the genome: Thu Jul 16 16:19:15 2026
 
 Genome: size given as a parameter = 2860939948
 SA: size given as a parameter = 22794148521
@@ -194,7 +194,7 @@ Found genome in shared memory
 DONE: removed the genome from shared memory
 Thread #0 end of input stream, nextChar=-1
 Completed: thread #0
-Jul 07 15:04:51 ..... finished mapping
+Jul 16 16:19:19 ..... finished mapping
 RAM after mapping:
-VmPeak:	26593524 kB; VmSize:	  161436 kB; VmHWM:	  106652 kB; VmRSS:	  106652 kB; 
+VmPeak:	26593520 kB; VmSize:	  161432 kB; VmHWM:	  106556 kB; VmRSS:	  106556 kB; 
 ALL DONE!
